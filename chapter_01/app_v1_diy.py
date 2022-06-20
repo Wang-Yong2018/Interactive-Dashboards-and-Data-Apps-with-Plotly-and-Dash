@@ -6,7 +6,7 @@ app = dash.Dash(__name__,
                 external_stylesheets=[dbc.themes.DARKLY]
                 )
 
-app.layout = html.Div([
+app.layout = html.Div(children=[
     html.H1('Poverty And Equity Database',
             style={'color': 'blue',
                    'fontSize': '40px'}),
